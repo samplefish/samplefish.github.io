@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta author="William Luong">
+  <meta name="description" content="William Luong Web Development Portfolio">
+  <meta name="keywords" content="William Luong, Web Development, Development, Web Developer">
+  
+
+  <link 
+    rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"
+  >
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"/>
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <title>William Luong</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <h4><a href="#">William Luong</a></h4>
+    </div>
+    <ul class="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#myWork">My Work</a></li>
+      <li><a href="#aboutMe">About</a></li>
+      <li><a href="./Resume.pdf" target="_blank">Resume</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <!--*** LANDING ***-->
+  <section id="landing">
+    <div class="landingOverlay">
+      <header>
+        <h1 id="title">William Luong</h1>
+        <p id="subHeading">Web Developer</p>
+        <div class="landingButtons">
+          <a href="#myWork" class="btn animated slideInLeft" id="projectBtn">
+            Projects
+          </a>
+          <a href="./Resume.pdf" target="_blank" class="btn animated slideInRight" id="resumeBtn">
+            Resume
+          </a>
+        </div>
+        <ul class="icons">
+          <li>
+            <a
+              class="contactIcon animated bounceInDown githubLink"
+              href="https://github.com/samplefish"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-github-alt" title="Github Logo"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contactIcon animated bounceInDown linkedInLink"
+              href="https://www.linkedin.com/in/william-yui-luong/"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-linkedin" title="LinkedIn Logo"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contactIcon animated bounceInDown wordpressLink"
+              href="https://williamluong794930116.wordpress.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-wordpress" title="Wordpress Logo"></i>
+            </a>
+          </li>
+        </ul>
+
+        <span class="emailSpan">
+          Email: <a href="mailto:williamyluong@gmail.com" class="emailLink">williamyluong@gmail.com</a>
+        </span>
+
+      </header>
+    </div>
+  </section>
+
+  <!--*** MY WORK ***-->
+  <div id="pageContainer">
+    <section id="myWork">
+      <h2 class="sectionHeading">Projects</h2>
+      <div id="cardGrid">
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="./images/potluck.jpg" alt="Create events and invite your friends!">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">Potluck Planner</p>
+              <div class="buttonWrapper">
+                <a
+                  href="http://potluck-env.eba-ginfq379.us-east-1.elasticbeanstalk.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Site
+                </a>
+                <a
+                  href="https://github.com/samplefish/potluckCentral"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View on GitHub
+                </a>
+              </div>
+              <p class="description">Set up potluck events and collaborate with friends</p>
+              <div class="projectSkills">
+                <p>Technologies:</p>
+                <ul class="skillsList">
+                  <li class="skill">Spring MVC</li>
+                  <li class="skill">Hibernate</li>
+                  <li class="skill">SQL</li>
+                  <li class="skill">AWS Elastic Beanstalk</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="./images/draw.jpg" alt="Draw With Friends is an Android multiplayer game">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">Draw With Friends</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://play.google.com/store/apps/details?id=drawing.io.drawwithfriends"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View on Google Play Store
+                </a>
+                <a
+                  href="https://github.com/samplefish/Pictogram"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View on GitHub
+                </a>
+              </div>
+              <p class="description">Play with friends by drawing your way to victory</p>
+              <div class="projectSkills">
+                <p>Technologies:</p>
+                <ul class="skillsList">
+                  <li class="skill">Android Studio</li>
+                  <li class="skill">Server/Client Sockets</li>
+                  <li class="skill">Wifi Connectivity</li>
+                  <li class="skill">Canvas Implementation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="./images/look.jpg" alt="League Look gives you the most important information, fast">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">League Look</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://play.google.com/store/apps/details?id=edu.csulb.spycam"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View on Google Play Store
+                </a>
+                <a
+                  href="https://github.com/samplefish/LeagueLook"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View on GitHub
+                </a>
+              </div>
+              <p class="description">Get essential stats from the League of Legends API</p>
+              <div class="projectSkills">
+                <p>Technologies:</p>
+                <ul class="skillsList">
+                  <li class="skill">Android Studio</li>
+                  <li class="skill">HTTP Requests</li>
+                  <li class="skill">SQL</li>
+                  <li class="skill">League of Legends API</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!--*** ABOUT ME ***-->
+    <section id="aboutMe">
+      <h2 class="sectionHeading">About Me</h2>
+      <p class="sectionInfo">
+        Take on the world... One step at a time.
+      </p>
+    </section>
+
+    
+  </div>
+
+  <!--*** SCRIPTS ***-->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
