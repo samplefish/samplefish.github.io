@@ -24,6 +24,8 @@ const navSlide = () => {
 
 navSlide();
 
+
+
 // Smooth Scrolling
 const navScroll = new SmoothScroll('nav ul li a[href*="#"]', {
   speed: 800
